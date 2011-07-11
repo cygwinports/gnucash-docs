@@ -1,5 +1,0 @@
-SVN_URI="http://svn.gnucash.org/repo/${PN}"
-SVN_TAG=${PV}
-inherit gnome2 svn
-
-MAKEOPTS+=" docdir=/usr/share/gnome/help/gnucash/\\\$(lang)"
