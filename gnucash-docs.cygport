@@ -1,9 +1,9 @@
 inherit gnome2
 
 NAME="gnucash-docs"
-VERSION=2.4.2
+VERSION=2.6.3
 RELEASE=1
-CATEGORY="GNOME Office"
+CATEGORY="Office"
 SUMMARY="GNOME financial accounting program (help documentation)"
 DESCRIPTION="GnuCash is personal and small-business financial-accounting
 software. Designed to be easy to use, yet powerful and flexible, GnuCash
@@ -12,6 +12,6 @@ and intuitive to use as a checkbook register, it is based on professional
 accounting principles to ensure balanced books and accurate reports."
 REQUIRES="yelp"
 HOMEPAGE="http://www.gnucash.org/"
-SRC_URI="mirror://sourceforge/gnucash/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/gnucash/${NAME}-${VERSION}.tar.gz"
 
-MAKEOPTS+=" docdir=/usr/share/gnome/help/gnucash/\\\$(lang)"
+ARCH=noarch
