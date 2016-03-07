@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gnucash-docs"
-VERSION=2.6.9
+VERSION=2.6.11
 RELEASE=1
 CATEGORY="Office"
 SUMMARY="GNOME financial accounting program (help documentation)"
