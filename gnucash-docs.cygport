@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gnucash-docs"
-VERSION=2.6.15
+VERSION=2.6.16
 RELEASE=1
 CATEGORY="Office"
 SUMMARY="Help documentation for GnuCash"
